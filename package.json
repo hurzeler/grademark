@@ -17,8 +17,7 @@
         "t": "npm run test",
         "test": "nyc mocha --opts ./src/test/mocha.opts",
         "tw": "npm run test:watch",
-        "test:watch": "mocha --watch --watch-extensions ts --opts ./src/test/mocha.opts",
-        "prepublishOnly": "npm run clean && npm run test && npm run build"
+        "test:watch": "mocha --watch --watch-extensions ts --opts ./src/test/mocha.opts"
     },
     "repository": {
         "type": "git",
